@@ -1,0 +1,21 @@
+replicaCount: 1
+
+appName: last9-ome
+
+appConfig:
+  path: "files"
+
+image:
+  repository: last9.jfrog.io/last9-openmetrics-exporter-docker/openmetrics-exporter
+  tag: "0.18.0"
+  pullPolicy: IfNotPresent
+  containerPort: 9090
+
+service:
+  name: l9-ome-stackdriver-service
+  type: ClusterIP
+  port: 9090
+  targetPort: 9090
+
+env:
+  name: prod
