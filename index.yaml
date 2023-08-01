@@ -3,7 +3,7 @@ entries:
   openmetrics-exporter-chart:
   - apiVersion: v2
     appVersion: 0.18.0
-    created: "2023-08-01T17:59:45.669392+05:30"
+    created: "2023-08-01T18:29:05.300566+05:30"
     description: A Helm chart for openmetrics exporter
     digest: 7d629c984adf4f761efed622ca1edd11aa2ff56a4054417b65294169f66c19a9
     maintainers:
@@ -13,6 +13,6 @@ entries:
     name: openmetrics-exporter-chart
     type: application
     urls:
-    - https://github.com/last9/helm-charts/openmetrics-exporter/openmetrics-exporter-chart-0.1.0.tgz
+    - https://github.com/last9/helm-charts/openmetrics-exporter-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2023-08-01T17:59:45.668721+05:30"
+generated: "2023-08-01T18:29:05.299999+05:30"
