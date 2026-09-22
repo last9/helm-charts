@@ -5,6 +5,33 @@ entries:
       artifacthub.io/category: monitoring-logging
     apiVersion: v2
     appVersion: 0.158.0
+    created: "2026-09-22T16:53:19.349153968Z"
+    description: 'Customer-installable Last9 eBPF profiling collector — a DaemonSet
+      that runs the upstream OpenTelemetry eBPF profiler and ships OTLP Profiles over
+      TLS. '
+    digest: 454bcc8d1e6862e2ded6aa557c2f66f1269363c17f275c45f10a7933e9f95539
+    home: https://last9.io
+    keywords:
+    - profiling
+    - ebpf
+    - opentelemetry
+    - last9
+    kubeVersion: '>=1.27.0-0'
+    maintainers:
+    - email: eng@last9.io
+      name: Last9 Engineering
+    name: last9-profiler
+    sources:
+    - https://github.com/open-telemetry/opentelemetry-ebpf-profiler
+    - https://github.com/open-telemetry/opentelemetry-collector-releases/tree/main/distributions/otelcol-ebpf-profiler
+    type: application
+    urls:
+    - https://last9.github.io/helm-charts/last9-profiler-0.1.1.tgz
+    version: 0.1.1
+  - annotations:
+      artifacthub.io/category: monitoring-logging
+    apiVersion: v2
+    appVersion: 0.158.0
     created: "2026-09-21T09:39:05.93684578Z"
     description: 'Customer-installable Last9 eBPF profiling collector — a DaemonSet
       that runs the upstream OpenTelemetry eBPF profiler and ships OTLP Profiles over
@@ -43,4 +70,4 @@ entries:
     urls:
     - https://github.com/last9/helm-charts/releases/download/openmetrics-exporter-chart-0.1.0/openmetrics-exporter-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2026-09-21T09:39:05.936053418Z"
+generated: "2026-09-22T16:53:19.348215584Z"
