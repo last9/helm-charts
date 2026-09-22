@@ -1,7 +1,0 @@
-# configmap.yaml
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: ome-configs
-data:
-{{ (.Files.Glob (printf "%s/*.hcl" .Values.appConfig.path)).AsConfig | indent 2 }}
